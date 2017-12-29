@@ -1,0 +1,2 @@
+# Configure .ogg files to be sent with the audio/ogg MIME type
+AddType audio/ogg .ogg

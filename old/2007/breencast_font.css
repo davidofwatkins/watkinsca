@@ -1,0 +1,227 @@
+/*Headers*/
+
+.header_large {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 36pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+}
+.header_medium {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+}
+.header_small {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+}
+.header_verdana {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+}
+.normal_font {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+}
+.news_date_font {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	color: #999999;
+}
+.header_smallest {
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+}
+
+/*Natvigation*/
+
+.navigation_home {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	padding: 8px;
+	width: 178px;
+	background-image: url(../images/layout/green-white.jpg);
+}
+.navigation_home:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	padding: 8px;
+	width: 178px;
+	background-image: url(../images/layout/orange-white3.jpg);
+}
+.navigation_about {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	padding: 8px;
+	width: 178px;
+	background-image: url(../images/layout/purple-white.jpg);
+}
+.navigation_about:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	padding: 8px;
+	width: 178px;
+	background-image: url(../images/layout/orange-white3.jpg);
+}
+.navigation_comics {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	padding: 8px;
+	width: 178px;
+	background-image: url(../images/layout/red-white.jpg);
+}
+.navigation_comics:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	padding: 8px;
+	width: 178px;
+	background-image: url(../images/layout/orange-white3.jpg);
+}
+.navigation_machinima {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	padding: 8px;
+	width: 178px;
+	background-image: url(../images/layout/blue-white.jpg);
+}
+.navigation_machinima:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	padding: 8px;
+	width: 178px;
+	background-image: url(../images/layout/orange-white3.jpg);
+}
+.navigation_downloads {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	padding: 8px;
+	width: 178px;
+	background-image: url(../images/layout/aqua-white.jpg);
+}
+.navigation_downloads:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	padding: 8px;
+	width: 178px;
+	background-image: url(../images/layout/orange-white3.jpg);
+}
+.navigation_links {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	padding: 8px;
+	width: 178px;
+	background-image: url(../images/layout/yellow-white.jpg);
+}
+.navigation_links:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	padding: 8px;
+	width: 178px;
+	background-image: url(../images/layout/orange-white3.jpg);
+}
+.navigation_movies {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	padding: 8px;
+	width: 178px;
+	background-image: url(../images/layout/blue-white3.jpg);
+	color: #000000;
+}
+.navigation_movies:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	padding: 8px;
+	width: 178px;
+	background-image: url(../images/layout/orange-white4.jpg);
+	color: #000000;
+}

@@ -1,0 +1,5 @@
+Options +Indexes
+IndexOptions +FancyIndexing
+IndexOptions +FoldersFirst
+IndexOptions +XHTML
+IndexOptions +HTMLTable

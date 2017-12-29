@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Happy New Year</title>
+    <link href='http://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
+    <style>
+		body {
+			background: black;
+			color: white;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		a { color: #06F; text-decoration: none; }
+		a:hover { color: #FFF; }
+		h1 {
+			text-align: center;
+			margin: 10px auto 10px auto;
+			font-family: "Handlee", Arial, Helvetica, sans-serif;
+			font-size: 35px;
+		}
+		div#slideshow {
+			width: 723px;
+			margin: 10px auto;
+		}
+			div.imagecontainer {
+				display: block;
+				width: 356px;
+				height: 267px;
+				float: left;
+				position: relative;
+			}
+				div.imagecontainer img {
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 356px;
+					height: 267px;
+				}
+				div#container1 img {
+					border-top-left-radius: 10px;
+				}
+				div#container2 img { border-top-right-radius: 10px; }
+				div#container3 img { border-bottom-left-radius: 10px; }
+				div#container4 img { border-bottom-right-radius: 10px; }
+		div#description-container {
+			text-align: center;
+			width: 500px;
+			height: 40px;
+			margin: 10px auto;
+			font-family: "Handlee", Arial, Helvetica, sans-serif;
+			font-size: 25px;
+			font-weight: bold;
+		}
+		div#audioplayer-container {
+			width: 450px;
+			margin: 30px auto;
+			padding: 10px 5px 5px 5px;
+			background: #333;
+			border-radius: 3px;
+		}
+		h2 {
+			font-weight: normal;
+			font-family: "Handlee", Arial, Helvetica, sans-serif;
+			text-align: center;
+			margin: 0;
+		}
+		div#poem-container {
+			width: 600px;
+			padding-left: 50px;
+			margin: auto;
+		}
+			
+			table#poem {
+				width: 550px;
+				font-size: 13px;
+			}
+		div#showhidebutton-wrapper {
+			text-align: center;
+			font-family: "Handlee", Arial, Helvetica, sans-serif;
+			font-size: 30px;
+		}
+		a#showhidepoem {
+			text-align: center;
+		}
+		
+		
+		/* Download button, copied from another css doc */
+		.dlpdf {
+			width: 190px;
+			height: 40px;
+			padding-right: 20px;
+			padding-left: 10px;
+			padding-top: 2px;
+			line-height: 38px; /* Essentially vertically centers one line of text - in addition to padding-top*/
+			letter-spacing: 1px;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 14px;
+			font-weight: 400;
+			color: #FFF;
+			text-align: right;
+			background-color: #7CABF1;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 10px;
+			margin-bottom: 5px;
+			/*border: 1px solid #FFF;*/
+			/* CSS3 */
+			border-radius: 5px;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			-khtml-border-radius: 5px; 
+		}
+		.dlpdf:hover {
+			border: 1px solid #03C;
+			margin-bottom: 4px; /* margin-bottom and margin-top are set to 1px less so that the hovered border doesn't cause spacial problems */
+			margin-top: 9px;
+		}
+		.dlpdf img {
+			margin: 0;
+			padding: 0;
+			float: left;
+		}
+	</style>
+    <script type="text/javascript" src="../../common/jquery.js"></script>
+    <script type="text/javascript" src="slideshowanimator.js"></script>
+</head>
+<body>
+	<img src="images/opening-2011.jpg" style="display: none;" />
+	<h1 id="welcometext">Happy New Year from the Watkins Family!</h1>
+    <div id="slideshow">
+    	<div id="container1" class="imagecontainer"><img src="images/openinga.jpg" /></div>
+        <div id="container2" class="imagecontainer"><img src="images/openingb.jpg" /></div>
+        <div id="container3" class="imagecontainer"><img src="images/openingc.jpg" /></div>
+        <div id="container4" class="imagecontainer"><img src="images/openingd.jpg" /></div>
+    </div>
+    <div style="clear: both;"></div>
+    <div id="description-container">Lake Champlain</div>
+    
+    <!--<div id="showhidebutton-wrapper"><a href="#" id="showhidepoem" >Click here to read our annual holiday poem</a></div>-->
+    <h2>Annual Holiday Poem:</h2>
+    <div id="poem-container">
+    <table id="poem">
+    	<tr>
+        	<td>
+            	<p>When a year draws to a close,<br />
+                With shorter days and longer nights,<br />
+                A child's anticipation grows,<br />
+                Amidst the many twinkling lights.</p>
+                
+                <p>But sometimes in a busy season,<br />
+                Grown-ups feel some discontent,<br />
+                Caught-up in material reason,<br />
+                When it's about enlightenment.</p>
+
+				<p>So let's allow ourselves to pause,<br />
+                Reflecting back upon the year,<br />
+                And move beyond these earthly laws,<br />
+                To reminisce and become clear.</p>
+                
+                <p>For two year's Mary's been creating,<br />
+                Memories of 20 years,<br />
+                An effort that was unabating,<br />
+                Accomplished through her sweat and tears.</p>
+                
+                <p>A T-shirt quilt was her grand present,<br />
+                Worn by Binks as he was growing,<br />
+                A comforter that's everpresent,<br />
+                To take with him where he is going.</p>
+                
+                <p>Binks pursued his college tour,<br />
+                In Vermont by Lake Champlain,<br />
+                By then he was a sophomore,<br />
+                With grades and course-loads to maintain.</p>
+                
+                <p>He was surprised, though we could see,<br />
+                Considering the  talent factor,<br />
+                Acting in Antigone,<br />
+                Binks was named the play's best actor.</p>
+                
+                <p>Aunt Nat came up to see the play,<br />
+                And if that trip was not enough,<br />
+                She came again another day<br />
+                To pick him up and store his stuff.</p>
+                
+                <p>Rejuvenating family ties,<br />
+                The Marks travelled to the coast,<br />
+                A good time all and we advise,<br />
+                That Kayla liked Bogart the most.</p>
+                
+                <p>Then two cats adopted us,<br />
+                Buffy first was left behind,<br />
+                Blackjack came and made a fuss,<br />
+                Are they too cute or we too kind?</p>
+                
+                <p>So Bogie now has two new friends,<br />
+                At fifteen he is "hanging in there",<br />
+                As our priority, he depends<br />
+                On family, friends and loving care.</p>
+                
+                <p>These seem to nurture his good soul,<br />
+                As do special loving prayers,<br />
+                And though we see a corporal toll,<br />
+                We know his spirit has no cares.</p>
+                
+                <p>Grama Jean says he's the best,<br />
+                At 94 she knows his struggles,<br />
+                Nonetheless she shares his zest<br />
+                For life, and with him in bed cuddles.</p>
+                
+                <p>Family visits and with friends,<br />
+                The Whites, Joni, Marta, Babs El,<br />
+                Support Jean's spirit, which portends<br />
+                That she'll continue to be well,</p>
+            </td>
+            <td>
+            	<p>As she maintains her inner peace,<br />
+                Despite the daily checks and pills,<br />
+                And with the prayers of dear LeMeice,<br />
+                She'll live beyond these human ills.</p>
+                
+                <p>When summer came she said hello,<br />
+                While visiting July the fourth,<br />
+                To her grandson David O., <br />
+                And guests who came from east and north.</p>
+                
+                <p>That would be her great granddaughter,<br />
+                Karen came with Kayla Jane,<br />
+                It's the second time she brought her,<br />
+                How we wished they could remain.</p>
+                
+                <p>Binks was present more or less,<br />
+                Having found an internship<br />
+                Writing code at BMS,<br />
+                When not with them this second trip.</p>
+                
+                <p>Alas, as Autumn's time drew near,<br />
+                We heard the Champlain College call,<br />
+                And Binks began his Junior year,<br />
+                At their campus in Montreal.</p>
+                
+                <p>We all went back to help him out,<br />
+                Though truth be told, 'twas an excuse,<br />
+                For mom and dad to look about,<br />
+                As Binks was off and on the loose.</p>
+                
+                <p>Time was short which was a pity,<br />
+                So soon we checked the local trains,<br />
+                And headed north to Quebec city,<br />
+                A lovely place where French still reigns.</p>
+                
+                <p>Strolling up and down the streets,<br />
+                Just like Paris at a glance,<br />
+                Where our culture meets and greets,<br />
+                A quaint sub-culture much like France.</p>
+                
+                <p>Walking on a cliff serene,<br />
+                Where the English fought the French,<br />
+                When caught in hurricane Irene,<br />
+                We almost fell in that same trench.</p>
+                
+                <p>Meanwhile back in Montreal,<br />
+                With friends David O had made,<br />
+                Trekked about and had a ball,<br />
+                Creating memories that won't fade.</p>
+                
+                <p>Back in old Laguna Beach,<br />
+                David missed his daughters two,<br />
+                And spent time in their homes with each,<br />
+                On an East Coast rendezvous.</p>
+                
+                <p>Mary went with her friend Heather,<br />
+                To our City by the Bay,<br />
+                And spent some precious time together,<br />
+                With niece Shannon for a day.</p>
+                
+                <p>As the year wound to a close,<br />
+                We gathered for the longest night,<br />
+                With family and friends we chose,<br />
+                To welcome in the coming light.</p>
+                
+                <p>No matter how our life's construed,<br />
+                Even when we may be stressed,<br />
+                We pray that we find gratitude,<br />
+                For what we have and know we're blessed.</p>
+            </td>
+        </tr>
+    </table>
+    </div>
+    
+    <center><a href="poem2011.pdf"><div class="dlpdf"><img src="../../images/PDF.png" alt="PDF" width="48" height="48" nomargin/>Download Poem</div></a></center>
+    
+    <div id="audioplayer-container"><center>
+    	<small style="color: #000;"><b>Music Controls</b>:</small><br />
+    	<audio id="audioplayer" controls autoplay="true">
+            <source src="clairdelune.mp3" />
+            <source src="clairdelune.ogg" />
+            <!--
+            	Note about OGG files:
+                
+                It is likely that the server will not recognize the OGG file format.
+                Therefore, it may be necessary to create an .htaccess file that assigns a
+                MIME type to OGG files, with the following line:
+                
+                	AddType audio/ogg .ogg
+                    
+                This will allow browsers such as Firefox to download the OGG file as media,
+                and play it in its HTML5 audio player.
+                
+                Sample .htaccess file with MIME type declarations, here:
+                https://developer.mozilla.org/en/Sample_.htaccess_file
+            -->
+            <embed type="application/x-shockwave-flash" flashvars="audioUrl=http://watkinsca.com/xmas/2011/clairdelune.mp3&autoPlay=true" src="http://www.google.com/reader/ui/3523697345-audio-player.swf" width="400" height="27" quality="best"></embed>
+        </audio>
+        
+    </center></div>
+</body>
+</html>

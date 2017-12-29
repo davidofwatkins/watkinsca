@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0; padding: 0;}
+body {
+	background-color: #ABC9D8;
+	background-image: url(../images/w-watermark.png);
+	text-align: center;
+}
+div#container {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #000;
+	/* CSS3 */
+	box-shadow: 0px 0px 20px #000;
+	-moz-box-shadow: 0px 0px 20px #000;
+	-webkit-box-shadow: 0px 0px 20px #000;
+	-o-box-shadow: 0px 0px 20px #000;
+}
+div#header {
+	width: 100%;
+	height: 240px;
+	background: url(../images/profilepics/familybanner.jpg);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	float: left;
+}
+div#navbar {
+	width: 100%;
+	background: #000;
+	text-align: center;
+	/* Opacity - Must be used here because opacity won't work for individual "navigation" boxes with absolute positioning*/
+	/*opacity: 0.8;
+	-webkit-opacity: 0.8;
+	-moz-opacity: 0.8;
+	-o-opacity: 0.8;
+	filter: alpha(opacity=80);*/
+}
+div#content {
+	width: 930px; /* Why do percentages not work here? */
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	background-color: #FFF;
+	float: left;
+}
+/* Version with no padding */
+div#content[label=nopad] {
+	width: 960px; /* Why do percentages not work here? */
+	padding: 0px;
+	background: #FFF;
+	float: left;
+}
+div#footer {
+	width: 960px;
+	background-color: #999;
+	margin-left: auto;
+	margin-right: auto;
+	/*float: left;*/
+	/* CSS3 Corners */
+	border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	border-radius-bottomright: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	/* CSS3 Shadows */
+	box-shadow: 0px 0px 20px #000;
+	-moz-box-shadow: 0px 0px 20px #000;
+	-webkit-box-shadow: 0px 0px 20px #000;
+	-o-box-shadow: 0px 0px 20px #000;
+}
+div.sidebar {
+	width: 200px;
+	background-color: #E0E6FE;
+	border: 1px solid #03C;
+	padding: 10px;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	text-align: center;
+	float: left;
+	/* CSS3 Corners */
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+td .tblbg {
+	width: 98%;
+	height: 98%;
+	padding: 1%;
+	/* CSS3 Corners */
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+td .tblbg:hover {
+	background-color: #E0E6FC;
+}
+.tblbg h2 {
+	margin: 2px;
+}
+div.clearfloats {
+	clear: both;
+}
+table {
+	margin-top: 20px;
+}
+/***************NAVIGATION***************/
+div.navigation {
+	width: 137px;
+	height: 17px;
+	margin: 3px 10px 0px 10px;
+	color: #FFF;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	float: left;
+	text-decoration: none;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	/* Opacity - Ineffective when #navbar has opacity settings */
+	opacity: 0.7;
+	-webkit-opacity: 0.7;
+	-moz-opacity: 0.7;
+	-khtml-opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+div.navigation:hover {
+	background-color: #333; /*#51A4FF*/
+	height: 16px;
+	/*color: #0000C4;*/
+	/*outline-right: #000 solid 1px; */
+	/* Opacity */
+	opacity: 1;
+	-moz-opacity: 1;
+	-webkit-opacity: 1;
+	-khtml-opacity: 1;
+	filter: alpha(opacity=100);
+	border-top-left-radius: 2px; border-top-right-radius: 2px;
+	-moz-border-radius-topleft: 2px; -moz-border-radius-topright: 2px;
+	-webkit-border-top-left-radius: 2px; -webkit-border-top-right-radius: 2px;
+	-o-border-top-left-radius: 2px; -o-border-top-right-radius: 2px;
+	/* CSS3 Transitioning */
+	transition-property: background-color;
+	transition-duration: .1s;
+	-moz-transition-property: background-color;
+	-moz-transition-duration: .1s;
+	-webkit-transition-property: background-color;
+	-webkit-transition-duration: .1s;
+	-o-transition-property: background-color;
+	-o-transition-duration: .1s;
+	
+}
+div#navbar a {
+	text-decoration: none;
+}
+div#navbar notrans {
+	position: relative;
+	opacity: 1;
+	-webkit-opacity: 1;
+	-moz-opacity: 1;
+	filter: alpha(opacity=100);
+}

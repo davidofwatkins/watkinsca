@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+a:link, a:visited { color: #09F; text-decoration: none; } /* Visited Links are the same color as unvisited links */ 
+a:hover { text-decoration: underline; }
+a:active { text-decoration: none; }
+
+/* Footer Links */
+#footer a:link, #footer a:visited { color: #006; text-decoration: none; }
+
+a.nh { text-decoration: none; }
+img {border: 0;}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #000;
+}
+h1 {
+	font-family: 'Neucha', Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: normal;
+	letter-spacing: .3em;
+	color: #006;
+	margin-bottom: 1em;
+}
+/* Used as table headers for Xmas Card page */
+h2 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	color: #030;
+	margin-bottom: 1em;
+	text-decoration: none;
+}
+/* Used as mini-headers on Xmas Card Pages */
+h3 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	color: #030;
+	margin-bottom: 1em;
+	text-decoration: none;
+}
+div.sidebar h3 {
+	color: #000;
+	margin-bottom: 7px;
+}
+div#content img {
+	margin: 10px;
+}
+div#content img[nomargin] {
+	margin: 0;
+}
+.shadow, [shadow=on] {
+	box-shadow: 0px 0px 20px #000;
+	-moz-box-shadow: 0px 0px 20px #000;
+	-webkit-box-shadow: 0px 0px 20px #000;
+	-khtml-box-shadow: 0px 0px 20px #000;
+}
+form table {
+	margin: 10px auto 10px auto;
+}
+form input[type=submit] {
+	width: 100px;
+	height: 40px;
+	margin: 10px auto 10px auto;
+}
+form textarea {
+	padding: 10px;
+}
+/********************BUTTONS**********************/
+.dlpdf {
+	width: 190px;
+	height: 40px;
+	padding-right: 20px;
+	padding-left: 10px;
+	padding-top: 2px;
+	line-height: 38px; /* Essentially vertically centers one line of text - in addition to padding-top*/
+	letter-spacing: 1px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #FFF;
+	text-align: right;
+	background-color: #7CABF1;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	/*border: 1px solid #FFF;*/
+	/* CSS3 */
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px; 
+}
+.dlpdf:hover {
+	border: 1px solid #03C;
+	margin-bottom: 4px; /* margin-bottom and margin-top are set to 1px less so that the hovered border doesn't cause spacial problems */
+	margin-top: 9px;
+}
+.dlpdf img {
+	margin: 0;
+	padding: 0;
+	float: left;
+}
