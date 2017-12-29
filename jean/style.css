@@ -1,0 +1,168 @@
+img { border: none; }
+body {
+        position: relative;
+        background: url("oceanbackground.png");
+        background-repeat: no-repeat;
+        background-color: black;
+        font-family: sans-serif;
+        text-align: center;
+        padding-top: 10px;
+        height: 100%;
+}
+
+input[type=text] {
+        border: 1px solid gray;
+}
+
+div#left, div#right {
+    display: inline-block;
+    text-align: center;
+    zoom: 1;
+    margin: 20px;
+    padding: 30px;
+    vertical-align: middle;
+}
+
+div#right {
+        width: 800px;
+}
+
+
+div#left h1, div#right h1 {
+        text-align: center;
+        margin-top: 5px;
+        font-family: 'Great Vibes', sans-serif;
+        font-size: 40px;
+}
+
+div#left {
+    width: 300px;
+}
+
+div#submitpicturescontainer {
+    border-top: 1px solid #585858;
+    padding-top: 20px;
+}
+p.description {
+        text-align: center;
+}
+p.meta {
+        font-weight: bold;
+        margin-bottom: 2px;
+        font-size: 13px;
+}
+form {
+        opacity: 1;
+}
+        form #name {
+                width: 300px;
+                font-size: 20px;
+                display: block;
+                margin: auto;
+                padding: 3px;
+        }
+        
+        form input[type=submit] {
+            background: #008200;
+            color: white;
+            font-weight: bold;
+            width: 100px;
+            border: 1px solid #004200;
+            border-radius: 3px;
+            padding: 5px;
+        }
+        
+        form input[type=submit]:hover {
+            background: #076d0d;
+        }
+        
+        form #errormsg {
+            display: none;
+            color: #840000;
+            font-weight: bold;
+            text-align: center;
+        }
+.transbackground {
+        background: url("transparent-white-70.png");
+        background-repeat: repeat;
+        border-radius: 5px;
+}
+
+iframe#map {
+    margin: auto;
+    margin: 20px auto;
+    border: 1px solid gray;
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+#photo {
+    border-radius: 10px;
+    box-shadow: 0 0 50px black;
+    width: 300px;
+    /*opacity: 0.9;
+    filter: alpha(opacity=90);*/
+}
+
+#upload-button {
+        overflow: hidden;
+        display: block;
+        position: relative;
+        vertical-align: middle;
+        text-align: center;
+        
+        color: white;
+        border: 1px solid #004200;
+        padding: 5px;
+        background: #008200;
+        font-weight: bold;
+        margin: auto;
+        width: 200px;
+        cursor: pointer;
+        border-radius: 3px;
+}
+#upload-button:hover {
+        background: #076d0d;
+}
+        #upload-button input {
+                position: absolute;
+                top: 0;
+                left: 0;
+                margin: 0;
+                cursor: pointer;
+                font-size: 70px;
+                opacity: 0;
+                filter: alpha(opacity=0);
+        }
+
+
+
+a#showmap {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 48px;
+}
+        #mapicon {
+                margin-right: 5px;
+                vertical-align: middle;
+        }
+
+textarea#story {
+    font-family: arial, sans-serif;
+    padding: 10px;
+    width: 580px;
+}
+
+div#uploadlisting {
+    font-size: 13px;
+    display: none;
+}
+
+    div#uploadlisting ul {
+        text-align: left;
+        display: block;
+        margin: auto;
+        width: 100px;
+    }
