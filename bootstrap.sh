@@ -39,7 +39,7 @@ echo 'cd /vagrant' >> /home/ubuntu/.bashrc
 # @note without `vagrant fs-notify`, we need to rely on --force_polling, which is slow and seems to cause a memory leak.
 # Thankfully, that plugin helps, so we don't need it: https://github.com/adrienkohlbecker/vagrant-fsnotify
 echo 'alias runserver="cd /vagrant && jekyll serve --host=0.0.0.0"' >> /home/ubuntu/.bashrc
-echo 'alias runserver="sudo pkill jekyll"' >> /home/ubuntu/.bashrc
+echo 'alias killserver="sudo pkill jekyll"' >> /home/ubuntu/.bashrc
 
 . ~/.bashrc
 
