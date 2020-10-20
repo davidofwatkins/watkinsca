@@ -2,10 +2,10 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
-$color_accent_light: #00BCD4;
-$color_accent_dark: #607D8B;
+$color_accent_light: #00bcd4;
+$color_accent_dark: #607d8b;
 $color_lightgray: #757575;
-$color_offwhite: #F5F5F5;
+$color_offwhite: #f5f5f5;
 
 * {
     margin: 0;
@@ -103,7 +103,7 @@ a {
 
 .site-footer {
     width: 100%;
-    background: #ECECEC;
+    background: #ececec;
     color: $color_lightgray;
 }
 
@@ -143,12 +143,12 @@ a {
             border-radius: 5px;
             display: inline-block;
 
-            transition: transform .2s ease-in-out;
+            transition: transform 0.2s ease-in-out;
 
             &:hover {
                 transform: scale(1.05);
                 box-shadow: 0 0 5px $color_lightgray;
-                transition: transform .2s ease-in-out;
+                transition: transform 0.2s ease-in-out;
             }
         }
     }
