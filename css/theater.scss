@@ -20,7 +20,8 @@ body {
     margin: auto;
 }
 
-.page-title, .page-subtitle {
+.page-title,
+.page-subtitle {
     text-align: center;
 }
 
@@ -45,7 +46,7 @@ body {
 }
 
 .video-subtitle {
-    border-bottom: 2px solid #607D8B;
+    border-bottom: 2px solid #607d8b;
     margin-bottom: 10px;
     font-weight: normal;
     text-align: right;
@@ -63,18 +64,17 @@ body {
     text-align: center;
 
     &:hover {
-        background: #03A9F4;;
+        background: #03a9f4;
     }
 }
 
 .gdrive-embed-wrapper {
-    
     /* From https://stackoverflow.com/a/35153397/477632: */
     position: relative;
     width: 100%;
     height: 0;
     padding-bottom: 56%; /* The height of the item will now be 56% of the width. */
-    
+
     border-radius: 5px;
     overflow: hidden;
     background: #212121;
@@ -92,7 +92,7 @@ body {
 footer {
     font-family: 'Arial', sans-serif;
     font-size: 15px;
-    background: #CACACA;
+    background: #cacaca;
     color: #757575;
     text-align: center;
     padding: 10px;
