@@ -15,6 +15,6 @@
         "**/*.min.js": true,
         "**/.idea/*": true,
         "vendor/*": true,
-        "_site/*": true,
+        "_site/*": true
     },
 }
