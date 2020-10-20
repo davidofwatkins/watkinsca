@@ -6,7 +6,7 @@
         "**/bin/*": true,
         "**/.idea/*": true,
         "vendor/*": true,
-        "_site/*": true,
+        "_site/*": true
     },
     "search.exclude": {
         "**/.git": true,
@@ -17,4 +17,6 @@
         "vendor/*": true,
         "_site/*": true
     },
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
 }

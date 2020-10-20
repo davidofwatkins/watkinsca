@@ -1,0 +1,24 @@
+{
+  "name": "watkinsca",
+  "version": "1.0.0",
+  "description": "This is the WatkinsCA site, available at [watkisnca.com](https://www.watkinsca.com).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "prettier -c .",
+    "lint:fix": "prettier ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidofwatkins/watkinsca.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidofwatkins/watkinsca/issues"
+  },
+  "homepage": "https://github.com/davidofwatkins/watkinsca#readme",
+  "devDependencies": {
+    "prettier": "2.1.2"
+  }
+}
